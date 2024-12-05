@@ -13,10 +13,19 @@ public class AgendaContext : DbContext
         modelBuilder.Entity<Paciente>(entity =>
         {
             entity.HasKey(p => p.CPF);
-            entity.Property(p => p.CPF).IsRequired();
-            entity.Property(p => p.Nome).IsRequired().HasMaxLength(100);
-            entity.Property(p => p.DataNascimento).IsRequired();
-            entity.Property(p => p.Idade).IsRequired();
+            entity.Property(p => p.CPF)
+                  .IsRequired()
+                  .HasMaxLength(11);  // Tamanho máximo do CPF
+
+            entity.Property(p => p.Nome)
+                  .IsRequired()
+                  .HasMaxLength(100);
+
+            entity.Property(p => p.DataNascimento)
+                  .IsRequired();
+
+            entity.Property(p => p.Idade)
+                  .IsRequired();
         });
 
         // Configurações de mapeamento para Consulta
@@ -24,7 +33,9 @@ public class AgendaContext : DbContext
         {
             entity.HasKey(c => new { c.CPF, c.DataConsulta, c.HoraInicial });
             entity.Property(c => c.CPF).IsRequired();
-            entity.Property(c => c.DataConsulta).IsRequired();
+            entity.Property(c => c.DataConsulta).IsRequired()
+            .HasConversion(c => c.ToUniversalTime(), 
+            c => DateTime.SpecifyKind(c, DateTimeKind.Utc));
             entity.Property(c => c.HoraInicial).IsRequired();
             entity.Property(c => c.HoraFinal).IsRequired();
 

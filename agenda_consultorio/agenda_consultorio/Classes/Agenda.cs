@@ -151,12 +151,21 @@ public class Agenda
 
     public void AdicionarPaciente(Paciente paciente)
     {
-        if (_context.Pacientes.Any(p => p.CPF == paciente.CPF))
-            throw new ArgumentException("Erro: CPF já cadastrado.");
+        try
+        {
+            if (_context.Pacientes.Any(p => p.CPF == paciente.CPF))
+                throw new ArgumentException("Erro: CPF já cadastrado.");
 
-        _context.Pacientes.Add(paciente);
-        _context.SaveChanges();
-        Console.WriteLine("Paciente cadastrado com sucesso!");
+            _context.Pacientes.Add(paciente);
+            _context.SaveChanges();
+            Console.WriteLine("Paciente cadastrado com sucesso!");
+        }
+        catch (DbUpdateException ex)
+        {
+            // Log detalhado do erro
+            Console.WriteLine($"Erro ao salvar paciente: {ex.InnerException?.Message}");
+            throw;
+        }
     }
 
     public void RemoverPaciente(string cpf)

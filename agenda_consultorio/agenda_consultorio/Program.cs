@@ -4,7 +4,6 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Configuration.Json;
 
-
 namespace agenda_consultorio
 {
     public class Program
@@ -87,7 +86,7 @@ namespace agenda_consultorio
                             Console.Write("Data de nascimento (dd/MM/yyyy): ");
                             DateTime dataNascimento = DateTime.ParseExact(Console.ReadLine(), "dd/MM/yyyy", CultureInfo.InvariantCulture);
 
-                            var novoPaciente = new Paciente(cpf, nome, dataNascimento);
+                            var novoPaciente = new Paciente(cpf, nome, dataNascimento.ToUniversalTime());
                             agenda.AdicionarPaciente(novoPaciente);
                         }
                         catch (Exception ex)
