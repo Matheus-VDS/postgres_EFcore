@@ -3,20 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Documents\\GitHub\\Projects-CSharp\\Desafio 3.1\\postgres_EFcore\\agenda_consultorio\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EAA1DED5-2C8A-486E-BB3B-9BF4776E7C7C}|agenda_consultorio\\agenda_consultorio.csproj|c:\\users\\pc\\documents\\github\\projects-csharp\\desafio 3.1\\postgres_efcore\\agenda_consultorio\\agenda_consultorio\\classes\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAA1DED5-2C8A-486E-BB3B-9BF4776E7C7C}|agenda_consultorio\\agenda_consultorio.csproj|solutionrelative:agenda_consultorio\\classes\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAA1DED5-2C8A-486E-BB3B-9BF4776E7C7C}|agenda_consultorio\\agenda_consultorio.csproj|c:\\users\\pc\\documents\\github\\projects-csharp\\desafio 3.1\\postgres_efcore\\agenda_consultorio\\agenda_consultorio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA1DED5-2C8A-486E-BB3B-9BF4776E7C7C}|agenda_consultorio\\agenda_consultorio.csproj|solutionrelative:agenda_consultorio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAA1DED5-2C8A-486E-BB3B-9BF4776E7C7C}|agenda_consultorio\\agenda_consultorio.csproj|c:\\users\\pc\\documents\\github\\projects-csharp\\desafio 3.1\\postgres_efcore\\agenda_consultorio\\agenda_consultorio\\dbappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAA1DED5-2C8A-486E-BB3B-9BF4776E7C7C}|agenda_consultorio\\agenda_consultorio.csproj|solutionrelative:agenda_consultorio\\dbappcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAA1DED5-2C8A-486E-BB3B-9BF4776E7C7C}|agenda_consultorio\\agenda_consultorio.csproj|c:\\users\\pc\\documents\\github\\projects-csharp\\desafio 3.1\\postgres_efcore\\agenda_consultorio\\agenda_consultorio\\classes\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAA1DED5-2C8A-486E-BB3B-9BF4776E7C7C}|agenda_consultorio\\agenda_consultorio.csproj|solutionrelative:agenda_consultorio\\classes\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAA1DED5-2C8A-486E-BB3B-9BF4776E7C7C}|agenda_consultorio\\agenda_consultorio.csproj|c:\\users\\pc\\documents\\github\\projects-csharp\\desafio 3.1\\postgres_efcore\\agenda_consultorio\\agenda_consultorio\\classes\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA1DED5-2C8A-486E-BB3B-9BF4776E7C7C}|agenda_consultorio\\agenda_consultorio.csproj|solutionrelative:agenda_consultorio\\classes\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EAA1DED5-2C8A-486E-BB3B-9BF4776E7C7C}|agenda_consultorio\\agenda_consultorio.csproj|c:\\users\\pc\\documents\\github\\projects-csharp\\desafio 3.1\\postgres_efcore\\agenda_consultorio\\agenda_consultorio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAA1DED5-2C8A-486E-BB3B-9BF4776E7C7C}|agenda_consultorio\\agenda_consultorio.csproj|solutionrelative:agenda_consultorio\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EAA1DED5-2C8A-486E-BB3B-9BF4776E7C7C}|agenda_consultorio\\agenda_consultorio.csproj|c:\\users\\pc\\documents\\github\\projects-csharp\\desafio 3.1\\postgres_efcore\\agenda_consultorio\\agenda_consultorio\\classes\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA1DED5-2C8A-486E-BB3B-9BF4776E7C7C}|agenda_consultorio\\agenda_consultorio.csproj|solutionrelative:agenda_consultorio\\classes\\agenda.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EAA1DED5-2C8A-486E-BB3B-9BF4776E7C7C}|agenda_consultorio\\agenda_consultorio.csproj|c:\\users\\pc\\documents\\github\\projects-csharp\\desafio 3.1\\postgres_efcore\\agenda_consultorio\\agenda_consultorio\\classes\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EAA1DED5-2C8A-486E-BB3B-9BF4776E7C7C}|agenda_consultorio\\agenda_consultorio.csproj|solutionrelative:agenda_consultorio\\classes\\consulta.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAA1DED5-2C8A-486E-BB3B-9BF4776E7C7C}|agenda_consultorio\\agenda_consultorio.csproj|c:\\users\\pc\\documents\\github\\projects-csharp\\desafio 3.1\\postgres_efcore\\agenda_consultorio\\agenda_consultorio\\classes\\paciente.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{EAA1DED5-2C8A-486E-BB3B-9BF4776E7C7C}|agenda_consultorio\\agenda_consultorio.csproj|c:\\users\\pc\\documents\\github\\projects-csharp\\desafio 3.1\\postgres_efcore\\agenda_consultorio\\agenda_consultorio\\migrations\\20241204203344_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EAA1DED5-2C8A-486E-BB3B-9BF4776E7C7C}|agenda_consultorio\\agenda_consultorio.csproj|solutionrelative:agenda_consultorio\\migrations\\20241204203344_initialcreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{EAA1DED5-2C8A-486E-BB3B-9BF4776E7C7C}|agenda_consultorio\\agenda_consultorio.csproj|c:\\users\\pc\\documents\\github\\projects-csharp\\desafio 3.1\\postgres_efcore\\agenda_consultorio\\agenda_consultorio\\classes\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EAA1DED5-2C8A-486E-BB3B-9BF4776E7C7C}|agenda_consultorio\\agenda_consultorio.csproj|solutionrelative:agenda_consultorio\\classes\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EAA1DED5-2C8A-486E-BB3B-9BF4776E7C7C}|agenda_consultorio\\agenda_consultorio.csproj|c:\\users\\pc\\documents\\github\\projects-csharp\\desafio 3.1\\postgres_efcore\\agenda_consultorio\\agenda_consultorio\\agenda_consultorio.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
@@ -42,7 +42,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 8,
           "Children": [
             {
               "$type": "Bookmark",
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "20241204203344_InitialCreate.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Projects-CSharp\\Desafio 3.1\\postgres_EFcore\\agenda_consultorio\\agenda_consultorio\\Migrations\\20241204203344_InitialCreate.cs",
               "RelativeDocumentMoniker": "agenda_consultorio\\Migrations\\20241204203344_InitialCreate.cs",
@@ -63,13 +63,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 2,
               "Title": "Context.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Projects-CSharp\\Desafio 3.1\\postgres_EFcore\\agenda_consultorio\\agenda_consultorio\\Classes\\Context.cs",
               "RelativeDocumentMoniker": "agenda_consultorio\\Classes\\Context.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Projects-CSharp\\Desafio 3.1\\postgres_EFcore\\agenda_consultorio\\agenda_consultorio\\Classes\\Context.cs",
               "RelativeToolTip": "agenda_consultorio\\Classes\\Context.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T20:31:19.749Z",
               "EditorCaption": ""
@@ -94,27 +94,27 @@
               "RelativeDocumentMoniker": "agenda_consultorio\\DbAppContext.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Projects-CSharp\\Desafio 3.1\\postgres_EFcore\\agenda_consultorio\\agenda_consultorio\\DbAppContext.cs",
               "RelativeToolTip": "agenda_consultorio\\DbAppContext.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAwwB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAADwvzAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-04T02:08:50.693Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Agenda.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Projects-CSharp\\Desafio 3.1\\postgres_EFcore\\agenda_consultorio\\agenda_consultorio\\Classes\\Agenda.cs",
               "RelativeDocumentMoniker": "agenda_consultorio\\Classes\\Agenda.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Projects-CSharp\\Desafio 3.1\\postgres_EFcore\\agenda_consultorio\\agenda_consultorio\\Classes\\Agenda.cs",
               "RelativeToolTip": "agenda_consultorio\\Classes\\Agenda.cs",
-              "ViewState": "AgIAAN8AAAAAAAAAAAAUwPoAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAkwPcAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-13T08:17:17.973Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Consulta.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Projects-CSharp\\Desafio 3.1\\postgres_EFcore\\agenda_consultorio\\agenda_consultorio\\Classes\\Consulta.cs",
               "RelativeDocumentMoniker": "agenda_consultorio\\Classes\\Consulta.cs",
@@ -127,7 +127,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Paciente.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Projects-CSharp\\Desafio 3.1\\postgres_EFcore\\agenda_consultorio\\agenda_consultorio\\Classes\\Paciente.cs",
               "RelativeDocumentMoniker": "agenda_consultorio\\Classes\\Paciente.cs",
@@ -140,13 +140,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Documents\\GitHub\\Projects-CSharp\\Desafio 3.1\\postgres_EFcore\\agenda_consultorio\\agenda_consultorio\\Program.cs",
               "RelativeDocumentMoniker": "agenda_consultorio\\Program.cs",
               "ToolTip": "C:\\Users\\PC\\Documents\\GitHub\\Projects-CSharp\\Desafio 3.1\\postgres_EFcore\\agenda_consultorio\\agenda_consultorio\\Program.cs",
               "RelativeToolTip": "agenda_consultorio\\Program.cs",
-              "ViewState": "AgIAAEsAAAAAAAAAAAAowFsAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAALgAAAAAAAAAAADwv9gAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-06T22:10:30.814Z",
               "EditorCaption": ""

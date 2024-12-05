@@ -35,7 +35,8 @@ public class AgendaContext : DbContext
             entity.Property(c => c.CPF).IsRequired();
             entity.Property(c => c.DataConsulta).IsRequired()
             .HasConversion(c => c.ToUniversalTime(), 
-            c => DateTime.SpecifyKind(c, DateTimeKind.Utc));
+            c => DateTime.SpecifyKind(c, DateTimeKind.Utc))
+            .HasColumnType("timestamp with time zone"); 
             entity.Property(c => c.HoraInicial).IsRequired();
             entity.Property(c => c.HoraFinal).IsRequired();
 

@@ -238,15 +238,17 @@ public class Agenda
     public void ListarPacientes(bool ordenarPorCPF = true)
     {
         var listaPacientes = ordenarPorCPF
-            ? _context.Pacientes.OrderBy(p => p.CPF)
-            : _context.Pacientes.OrderBy(p => p.Nome);
+            ? _context.Pacientes.OrderBy(p => p.CPF).ToList() // Dados carregados na memória
+            : _context.Pacientes.OrderBy(p => p.Nome).ToList();
 
         foreach (var paciente in listaPacientes)
         {
             Console.WriteLine($"CPF: {paciente.CPF} | Nome: {paciente.Nome} | Data Nascimento: {paciente.DataNascimento:dd/MM/yyyy} | Idade: {paciente.Idade}");
 
             var consultaFutura = _context.Consultas
-                .FirstOrDefault(c => c.CPF == paciente.CPF && c.DataConsulta >= DateTime.Now.Date);
+                .Where(c => c.CPF == paciente.CPF && c.DataConsulta >= DateTime.UtcNow.Date)
+                .OrderBy(c => c.DataConsulta)
+                .FirstOrDefault();
 
             if (consultaFutura != null)
             {
@@ -254,6 +256,7 @@ public class Agenda
             }
         }
     }
+
 
     public void ListarAgenda(DateTime? dataInicial = null, DateTime? dataFinal = null)
     {

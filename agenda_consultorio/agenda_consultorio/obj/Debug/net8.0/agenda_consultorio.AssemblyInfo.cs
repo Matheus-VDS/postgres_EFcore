@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("agenda_consultorio")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4e0837850e09e9b06029e42a2e9172bd893cf5b2")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+eb8325de402e83f8fe5de1c55abf5bc956c8f2a5")]
 [assembly: System.Reflection.AssemblyProductAttribute("agenda_consultorio")]
 [assembly: System.Reflection.AssemblyTitleAttribute("agenda_consultorio")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
